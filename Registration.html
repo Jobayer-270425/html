@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+</head>
+
+<body style="background-color: aqua;">
+    <h2>Registration form</h2>
+    <form>
+        <div>
+            <label for="Fullname">Full Name :</label>
+            <input type="text" name="Fullname" id="Fullname" required>
+        </div> <br>
+
+        <div>
+            <label for="password ">password :</label>
+            <input type="password" name="password" id="password" required>
+        </div> <br>
+
+        <div>
+            <label for="Email">Email :</label>
+            <input type="email" name="email" id="email">
+        </div> <br>
+
+        <div>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" id="gender" value="gender">Male
+            <input type="radio" name="gender" id="gender" value="gender">Famale
+            <input type="radio" name="gender" id="gender" value="gender">Others
+        </div> <br>
+
+        <div>
+            <label for="dob">Date of Birth :</label>
+            <input type="date" name="dob" id="dob">
+        </div> <br>
+
+        <div>
+            <label for="photo">Choose your photo :</label>
+            <input type="file" name="photo" id="photo">
+        </div> <br>
+
+        <div>
+            <label for="checkbox">Religion :</label>
+            <input checked type="checkbox" name="checkbox" id="checkbox"> Islam
+            <input type="checkbox" name="checkbox" id="checkbox"> Hindu
+            <input type="checkbox" name="checkbox" id="checkbox"> Others
+        </div> <br>
+
+        <div>
+            <label for="department">Deparment :</label>
+            <select name="department" id="department">
+                <option value="mt">MT</option>
+                <option value="ent" selected>ENT</option>
+                <option value="pt">PT</option>
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="ct">CT</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="message">Message :</label> <br>
+            <textarea rows="15" cols="35" name="message" id="message"></textarea>
+        </div> <br>
+
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear">
+        </div> <br>
+
+    </form>
+</body>
+
+</html>
